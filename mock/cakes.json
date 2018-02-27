@@ -1,0 +1,54 @@
+{
+  "status": "0",
+  "msg": "a",
+  "list":[
+    {
+      "proId": "1",
+      "proName": "商品名",
+      "price": 15,
+      "before":20,
+      "proImg": "pc.jpg",
+      "proIntro":"这个很好吃的"
+    },
+    {
+      "proId": "2",
+      "proName": "商品名2",
+      "price": 10,
+      "before":20,
+      "proImg": "pc1.jpg",
+      "proIntro":"这个也很好吃的"
+    },
+    {
+      "proId": "3",
+      "proName": "商品名3",
+      "price": 12,
+      "proImg": "pc2.jpg",
+      "before":20,
+      "proIntro":"这个最好吃的"
+    },
+    {
+      "proId": "4",
+      "proName": "商品名4",
+      "price": 13,
+      "before":20,
+      "proImg": "pc3.jpg",
+      "proIntro":"这个不好吃的"
+    },
+    {
+      "proId": "5",
+      "proName": "商品名",
+      "price": 15,
+      "before":20,
+      "proImg": "pc4.jpg",
+      "proIntro":"这个很好吃的"
+    },
+    {
+      "proId": "6",
+      "proName": "商品名",
+      "price": 15,
+      "before":20,
+      "proImg": "pc5.jpg",
+      "proIntro":"这个很好吃的"
+    }
+  ]
+}
