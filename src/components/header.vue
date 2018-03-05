@@ -393,80 +393,82 @@
                 <ul class="nav navbar-nav nav_1">
                   <li><a class="color" href="/">主页</a></li>
 
-                  <li class="dropdown mega-dropdown active">
-                    <a class="color1 dropdown-toggle" href="/pro" @mouseenter="showMenu">甜品分类<span class="caret"></span></a>
-                    <div class="dropdown-menu" v-if="showMenuFlag" @mouseleave="showMenu">
-                      <div class="menu-top">
-                        <div class="col1">
-                          <div class="h_nav">
-                            <h4>港式甜品</h4>
-                            <ul>
-                              <li><a href="#">牛奶炖蛋</a></li>
-                              <li><a href="#">双皮奶</a></li>
-                              <li><a href="#">芒果西米露</a></li>
-                              <li><a href="#">杨枝甘露</a></li>
+                  <li class="dropdown mega-dropdown ">
+                    <a class="color1 dropdown-toggle" href="/pro" @mouseenter="showMenu">甜品分类
+                      <!--<span class="caret"></span>-->
+                    </a>
+                    <!--<div class="dropdown-menu" v-if="showMenuFlag" @mouseleave="showMenu">-->
+                      <!--<div class="menu-top">-->
+                        <!--<div class="col1">-->
+                          <!--<div class="h_nav">-->
+                            <!--<h4>港式甜品</h4>-->
+                            <!--<ul>-->
+                              <!--<li><a href="#">牛奶炖蛋</a></li>-->
+                              <!--<li><a href="#">双皮奶</a></li>-->
+                              <!--<li><a href="#">芒果西米露</a></li>-->
+                              <!--<li><a href="#">杨枝甘露</a></li>-->
 
-                            </ul>
-                          </div>
-                        </div>
-                        <div class="col1">
-                          <div class="h_nav">
-                            <h4>台式甜品</h4>
-                            <ul>
-                              <li><a href="#">仙草</a></li>
-                              <li><a href="#">芋圆</a></li>
-                              <li><a href="#">豆花</a></li>
-                              <li><a href="#">杨枝甘露</a></li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div class="col1">
-                          <div class="h_nav">
-                            <h4>广府糖水</h4>
-                            <ul>
-                              <li><a href="#">绿豆</a></li>
-                              <li><a href="#">红豆粥</a></li>
-                              <li><a href="#">番薯</a></li>
-                              <li><a href="#">白果腐竹</a></li>
-                              <li><a href="#">鸡蛋莲子</a></li>
-                              <li><a href="#">芝麻糊</a></li>
-                              <li><a href="#">核桃糊</a></li>
+                            <!--</ul>-->
+                          <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="col1">-->
+                          <!--<div class="h_nav">-->
+                            <!--<h4>台式甜品</h4>-->
+                            <!--<ul>-->
+                              <!--<li><a href="#">仙草</a></li>-->
+                              <!--<li><a href="#">芋圆</a></li>-->
+                              <!--<li><a href="#">豆花</a></li>-->
+                              <!--<li><a href="#">杨枝甘露</a></li>-->
+                            <!--</ul>-->
+                          <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="col1">-->
+                          <!--<div class="h_nav">-->
+                            <!--<h4>广府糖水</h4>-->
+                            <!--<ul>-->
+                              <!--<li><a href="#">绿豆</a></li>-->
+                              <!--<li><a href="#">红豆粥</a></li>-->
+                              <!--<li><a href="#">番薯</a></li>-->
+                              <!--<li><a href="#">白果腐竹</a></li>-->
+                              <!--<li><a href="#">鸡蛋莲子</a></li>-->
+                              <!--<li><a href="#">芝麻糊</a></li>-->
+                              <!--<li><a href="#">核桃糊</a></li>-->
 
-                            </ul>
-                          </div>
-                        </div>
-                        <div class="col1">
-                          <div class="h_nav">
-                            <h4>日式甜品</h4>
-                            <ul>
-                              <li><a href="#">优逸卷筒</a></li>
-                              <li><a href="#">麻糬</a></li>
-                              <li><a href="#">铜锣烧</a></li>
-                              <li><a href="#">草莓蛋糕</a></li>
-                              <li><a href="#">长崎蛋糕 </a></li>
-                              <li><a href="#">芝士蛋糕</a></li>
+                            <!--</ul>-->
+                          <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="col1">-->
+                          <!--<div class="h_nav">-->
+                            <!--<h4>日式甜品</h4>-->
+                            <!--<ul>-->
+                              <!--<li><a href="#">优逸卷筒</a></li>-->
+                              <!--<li><a href="#">麻糬</a></li>-->
+                              <!--<li><a href="#">铜锣烧</a></li>-->
+                              <!--<li><a href="#">草莓蛋糕</a></li>-->
+                              <!--<li><a href="#">长崎蛋糕 </a></li>-->
+                              <!--<li><a href="#">芝士蛋糕</a></li>-->
 
-                            </ul>
-                          </div>
-                        </div>
-                        <div class="col1">
-                          <div class="h_nav">
-                            <h4>广府糖水</h4>
-                            <ul>
-                              <li><a href="#">绿豆</a></li>
-                              <li><a href="#">红豆粥</a></li>
-                              <li><a href="#">番薯</a></li>
-                              <li><a href="#">白果腐竹</a></li>
-                              <li><a href="#">鸡蛋莲子</a></li>
-                              <li><a href="#">芝麻糊</a></li>
-                              <li><a href="#">核桃糊</a></li>
+                            <!--</ul>-->
+                          <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="col1">-->
+                          <!--<div class="h_nav">-->
+                            <!--<h4>广府糖水</h4>-->
+                            <!--<ul>-->
+                              <!--<li><a href="#">绿豆</a></li>-->
+                              <!--<li><a href="#">红豆粥</a></li>-->
+                              <!--<li><a href="#">番薯</a></li>-->
+                              <!--<li><a href="#">白果腐竹</a></li>-->
+                              <!--<li><a href="#">鸡蛋莲子</a></li>-->
+                              <!--<li><a href="#">芝麻糊</a></li>-->
+                              <!--<li><a href="#">核桃糊</a></li>-->
 
-                            </ul>
-                          </div>
-                        </div>
-                        <div class="clearfix"></div>
-                      </div>
-                    </div>
+                            <!--</ul>-->
+                          <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="clearfix"></div>-->
+                      <!--</div>-->
+                    <!--</div>-->
                   </li>
                   <li><a class="color3" href="/star">明星产品</a></li>
                   <li><a class="color4" href="/about">关于我们</a></li>
@@ -561,6 +563,18 @@
 
         });
 
+      },
+      checkLogin(){
+        axios.get("/users/checkLogin").then((response)=>{
+          const res = response.data;
+          const path = this.$route.pathname;
+          
+        })
+      }
+    },
+    coumputed:{
+      nickName(){
+        return this.$store.state.nickName;
       }
     }
   }

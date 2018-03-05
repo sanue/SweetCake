@@ -117,7 +117,7 @@ router.post('/getCurrentUser',(req,res,next)=>{
     });
   }else{
     res.json({
-      status:'0',
+      status:'1',
       msg:'请登录'
     })
   }

@@ -93,6 +93,7 @@
     methods:{
       getUserId(){
         axios.post('/users/getCurrentUser').then((response)=>{
+          console.log(response.data);
           if(response.data.status=="0"){
             let userInfo = response.data.result.userInfo;
             this.userId = userInfo.userId;
